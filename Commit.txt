@@ -1,0 +1,6 @@
+Perintah untuk menjalankan operasi commit:
+Langkah-langkah menjalankan operasi commit dalam Git.
+1. Menambahkan perubahan ke staging area dengan menggunakan perintah 'git add'
+2. Melakukan commit dengan perintah 'git commit' misalnya:
+   $ git commit -m "Pesan commit"
+3. Push perubahan ke repositori utama dengan menggunakan perintah 'git push'
