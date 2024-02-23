@@ -1,0 +1,5 @@
+Untuk menjalankan perintah clone,  menggunakan perintah git clone di terminal atau command prompt. 
+-Buka Terminal atau Command Prompt
+-Pindah ke Direktori Tempat Anda Ingin Menyimpan Repositori gunakan perintah "cd project"
+-Jalankan Perintah Clone masukan link url repositorimu yang sudah di salin di github
+-Tekan Enter
