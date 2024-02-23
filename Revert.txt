@@ -1,0 +1,15 @@
+Perintah untuk menjalankan operasi revert:
+Langkah-langkah menjalankan operasi revert dalam Git.
+Langkah-langkah melakukan Revert:
+1. Persiapkan Repositori Lokal:
+Pastikan Anda telah meng-clone repositori yang ingin Anda revert ke dalam repositori lokal Anda menggunakan perintah git clone <URL repositori>.
+2. Temukan ID Commit:
+Gunakan perintah git log untuk melihat riwayat commit di repositori lokal Anda dan temukan ID commit yang ingin Anda revert. Catat ID commit tersebut.
+3.Lakukan Revert:
+Lakukan revert pada repositori lokal Anda menggunakan perintah git revert <commit-id> di terminal. Gantilah <commit-id> dengan ID commit yang ingin Anda revert. 
+4. Selesaikan Konflik (jika ada):
+Jika ada konflik saat melakukan revert, Anda perlu menyelesaikan konflik tersebut dengan mengedit file yang terlibat, menandai konflik sebagai diselesaikan, dan melanjutkan proses revert.
+5. Commit Revert:
+Setelah menyelesaikan revert, lakukan commit untuk menyimpan perubahan revert tersebut ke dalam repositori lokal Anda dengan perintah git commit. Pastikan untuk memberikan pesan commit yang jelas yang menjelaskan revert yang dilakukan.
+6. Push Perubahan ke GitHub:
+Terakhir, dorong perubahan revert ke repositori GitHub dengan perintah git push origin <nama-cabang> di terminal. Gantilah <nama-cabang> dengan nama cabang tempat Anda melakukan revert.
