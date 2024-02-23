@@ -1,0 +1,3 @@
+Perintah menjalankan push:
+Setelah melakukan commit, pengembang dapat membagikan perubahan mereka dengan anggota tim lainnya atau menyimpannya di repositori pusat dengan perintah git push.
+Push mengirimkan perubahan yang tercatat dalam repositori lokal ke repositori yang terhubung di server pusat. Dengan demikian, perubahan tersebut menjadi tersedia untuk dilihat dan diakses oleh anggota tim lainnya.
